@@ -1,2 +1,2 @@
 # eriktmidtun.github.io
-site
+This is a rep that i use to test my websites
