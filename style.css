@@ -17,7 +17,7 @@
 .header {
   padding: 3%;
   text-align: center;
-  background: #4c4c4c url('concrete.jpg');
+  background: #4c4c4c url('images/concrete.jpg');
 }
 
 .container {
@@ -49,6 +49,30 @@ h3 {
   text-align: right;
 }
 
+.links img {
+
+  max-width: 1.2rem;
+  min-width: 1rem;
+  width: auto;
+  display: block;
+}
+
+.links p {
+  line-height: 1.2rem;
+  padding-right: 5%;
+
+}
+
+.links div {
+  padding: 0;
+
+}
+.links {
+  justify-content: flex-end;
+  text-decoration: none;
+  margin-bottom: 2%
+}
+
 a, p, h2, h4, h5, h6 {
   color: #4d4d4d;
   font-family: 'Raleway', sans-serif;
@@ -68,7 +92,7 @@ h2 {
   margin-bottom: 1em;
 }
 
-a, p {
+p {
   margin: 0;
   line-height: normal;
 }
@@ -99,7 +123,9 @@ a:hover {
   text-decoration: none;
   font-weight: bold;
   cursor: pointer;
+  box-shadow: 2px 2px;
 }
+
 
 @media only screen and (max-width: 992px) {
   #info p {
@@ -142,6 +168,10 @@ a:hover {
 
   h4 {
     font-size: 2rem;
+  }
+
+  .links {
+    justify-content: flex-start;
   }
 }
 
